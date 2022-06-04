@@ -1,0 +1,61 @@
+
+@font-face{
+	font-family:Righteous;
+	src:url(./Righteous-Regular.ttf);
+}
+@font-face{
+	font-family: Raleway;
+	src:url(./Raleway-SemiBold.ttf);
+}
+
+body{
+	padding: 220px; 
+	background: url(./cover.jpg) no-repeat; 
+	height: 500vh; 
+	background-position: left; 
+	background-size: cover; 
+	background-attachment: fixed;
+}
+#body{
+	width: 100%;
+}
+.main{
+	background-color: #00000099;
+	padding: 4%;
+	padding-top: 6%;
+	border-radius: 25px;
+	margin-top: 6%;
+	margin-bottom: 10%; 
+}
+header{
+	width: 100%;
+	font-size: 3.4em;
+	color: white;
+	text-align: center;
+	font-family: Righteous;
+}
+.block{
+	color: white;
+	font-size: 2.1em;
+	font-family: Raleway;
+	margin: 2%;
+}
+.answersheet{
+	margin: 3%;
+}
+input[type=radio] {
+    border: 0px;
+    width: 8%;
+    height: 2em;
+}
+progress{
+	width: 94%;
+	margin: 3%;
+	height: 50px;
+}
+.ans{
+	color: white;
+	font-size: 2.2em;
+	font-family: Raleway;
+	margin: 2%;
+}
